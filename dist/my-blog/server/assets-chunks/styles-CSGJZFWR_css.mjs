@@ -1,0 +1,2 @@
+export default `*{margin:0;padding:0;box-sizing:border-box}html,body{height:100%;margin:0;display:flex;flex-direction:column;padding:0;box-sizing:border-box;overflow-x:hidden;background-color:#fff;color:#4b5563;font-family:Inter,sans-serif}app-root{display:flex;flex-direction:column;min-height:100vh}main{flex:1}h1,h2,h3{color:#1f2937}a{color:#2563eb}a:hover{color:#1d4ed8}
+`;

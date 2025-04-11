@@ -1,0 +1,54 @@
+.container-projects {
+  max-width: 70%;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.containp {
+  margin: 50px auto;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 40px;
+}
+
+.project.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-text h3 {
+  color: #1a237e;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  font-size: 16px;
+  color: #333;
+}
+
+.project-image {
+  flex: 1;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.titleh1 {
+  font-size: 28px;
+  color: #1a237e;
+  margin-bottom: 30px;
+}

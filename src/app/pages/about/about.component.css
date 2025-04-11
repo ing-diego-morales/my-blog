@@ -1,0 +1,80 @@
+.about-section {
+  max-width: 70%;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.about-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.titleh1 {
+  font-size: 28px;
+  color: #1a237e;
+  margin-bottom: 30px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.column h3 {
+  color: #1a237e;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.chatbot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    color: #000000;
+}
