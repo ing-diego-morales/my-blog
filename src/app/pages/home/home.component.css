@@ -208,3 +208,114 @@
 .carousel-btn.next {
   right: 5px;
 }
+
+
+@media (max-width: 768px) {
+  .hero-text {
+    order: 1;
+  }
+  .carousel-container {
+    order: 2;
+  }
+  
+  .hero-content {
+    flex-direction: column;
+    gap: 24px;
+    width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .carousel-container .carousel-images {
+    width: 100%;
+    height: auto;
+    display: block;
+    min-height: 300px; 
+  }
+
+  .cv-button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .carousel-btn .prev{
+    width: 20px;
+  }
+
+  .info-container {
+    flex-direction: column;
+    width: 90%;
+    gap: 24px;
+    padding-right: 0;
+    margin: 0 auto; 
+  }
+
+  .info-section{
+    width: 100%;
+    padding: 0 12px;
+    text-align: left;
+  }
+
+  .info-image img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-text {
+    width: 100%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .info-blocks {
+    gap: 12px;
+  }
+
+  .info-block p,
+  .info-text p {
+    font-size: 16px;
+  }
+
+  .extra-text h2 {
+    font-size: 24px;
+  }
+
+  .extra-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p,
+  .extra-text p,
+  .info-text p,
+  .info-block p {
+    font-size: 13px;
+  }
+
+  .cv-button {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .info-image img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .extra-text h2 {
+    font-size: 20px;
+  }
+}

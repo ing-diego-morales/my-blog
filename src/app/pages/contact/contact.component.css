@@ -5,7 +5,7 @@
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .contact-container h2 {
@@ -42,4 +42,41 @@
   font-size: 19.2px;
   vertical-align: middle;
   color: #0d47a1;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 20px;
+    margin: 30px 10px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .contact-container h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .contact-container p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .contact-list li,
+  .social-links li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .social-links i {
+    font-size: 18px;
+    margin-right: 6px;
+  }
+
+  .contact-list a,
+  .social-links a {
+    word-break: break-word;
+    display: inline-block;
+    text-align: left;
+  }
 }
