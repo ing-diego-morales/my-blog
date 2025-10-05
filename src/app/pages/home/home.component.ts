@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
       Date.UTC(hoy.getFullYear(), hoy.getMonth(), hoy.getDate())
     );
 
-    const fechaInicio = new Date(Date.UTC(2022, 4, 10));
+    const fechaInicio = new Date(Date.UTC(2022, 4, 19));
 
     const diferenciaMs = fechaUTC.getTime() - fechaInicio.getTime();
     const diferenciaDias = Math.floor(diferenciaMs / (1000 * 60 * 60 * 24));
